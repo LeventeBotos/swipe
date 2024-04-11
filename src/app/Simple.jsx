@@ -49,7 +49,7 @@ function Simple() {
           className="swipe"
           onSwipe={(dir) => swiped(dir, character.name)}
           onCardLeftScreen={() => outOfFrame(character.name)}
-        >z
+        >
           <div
             style={{ backgroundImage: "url(" + character.url + ")" }}
             className="card"
